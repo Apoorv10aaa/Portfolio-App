@@ -1,5 +1,4 @@
 import {
-  BiLogoCss3,
   BiLogoReact,
   BiLogoRedux,
   BiLogoTailwindCss,
@@ -59,13 +58,7 @@ const ProjectsData = [
     id: "5",
     name: "Web Music Player",
     image: "./musicPlayer.png",
-    icons: [
-      BiLogoReact,
-      BiLogoRedux,
-      BiLogoTailwindCss,
-      BiLogoCss3,
-      SiElasticsearch,
-    ],
+    icons: [BiLogoReact, BiLogoRedux, BiLogoTailwindCss, SiElasticsearch],
     description:
       "Amuse is a fully-functional, user-friendly, and secure web-based music player application.",
     github: "https://github.com/Apoorv10aaa/WebMusicPlayer",
