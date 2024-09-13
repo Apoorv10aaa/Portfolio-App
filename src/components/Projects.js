@@ -29,14 +29,14 @@ const Projects = () => {
               data-aos-duration="1000"
               data-aos-once="false"
               key={project.id}
-              className="group relative flex flex-col flex-wrap h-80 w-[95%] mx-auto shadow-lg shadow-[#8A9A5B] rounded-xl "
+              className="group relative flex flex-col flex-wrap h-80 w-full mx-auto shadow-lg shadow-[#8A9A5B] rounded-xl "
             >
               <img
                 src={project.image}
                 alt={project.name}
                 className="h-80 rounded-xl"
               />
-              <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-[#22311d] rounded-xl">
+              <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-80 transition-[height_0.5s] duration-500 bg-[#22311d] rounded-xl">
                 <h3
                   data-aos="zoom-in-up"
                   data-aos-duration="1000"

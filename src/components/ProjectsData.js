@@ -7,7 +7,7 @@ import {
 } from "react-icons/bi";
 import { TbApi, TbDatabase } from "react-icons/tb";
 import { SiElasticsearch } from "react-icons/si";
-import { TiHtml5 } from "react-icons/ti";
+// import { TiHtml5 } from "react-icons/ti";
 
 const ProjectsData = [
   // {
@@ -25,8 +25,7 @@ const ProjectsData = [
     name: "Ecommerce Website",
     image: "./ecom.png",
     icons: [BiLogoReact, BiLogoTailwindCss, TbApi, TbDatabase],
-    description:
-      "This website provides users with all the basic kinds of shopping items.",
+    description: "A simple, creative, responsive website for e-commerce",
     github: "https://github.com/Apoorv10aaa/ECommerce-website",
     demo: "https://e-shopping-webapp.netlify.app",
   },
@@ -65,11 +64,10 @@ const ProjectsData = [
       BiLogoRedux,
       BiLogoTailwindCss,
       BiLogoCss3,
-      TiHtml5,
       SiElasticsearch,
     ],
     description:
-      "Amuse is a fully-functional, user-friendly, and secure web-based music player application. It allows users to browse, play, and manage their music collections, create playlists, shuffle songs, and enjoy seamless streaming. ",
+      "Amuse is a fully-functional, user-friendly, and secure web-based music player application.",
     github: "https://github.com/Apoorv10aaa/WebMusicPlayer",
     demo: "",
   },
@@ -79,7 +77,7 @@ const ProjectsData = [
     image: "./blogApp.png",
     icons: [BiLogoReact, BiLogoRedux, BiLogoTailwindCss],
     description:
-      "Personalized blog app with responsive design with a clean and intuitive layout. Users can create, edit, and delete blog posts with a rich text editor.",
+      "Personalized blog app with responsive design with a clean and intuitive layout.",
     github: "https://github.com/Apoorv10aaa/Personal-Blog-App",
     demo: "https://blog-app-personal.netlify.app/",
   },
