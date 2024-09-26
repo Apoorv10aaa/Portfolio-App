@@ -62,7 +62,7 @@ const ProjectsData = [
     description:
       "Amuse is a fully-functional, user-friendly, and secure web-based music player application.",
     github: "https://github.com/Apoorv10aaa/WebMusicPlayer",
-    demo: "",
+    demo: "https://amuse-music-player.netlify.app",
   },
   {
     id: "6",
